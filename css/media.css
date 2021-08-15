@@ -1,0 +1,128 @@
+@media(max-width:1300px) {
+    .header__sidebar {
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .header__sidebar:hover{
+        width: 100%;
+    }
+    .header__list {
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .header__link {
+        margin-bottom: 0;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .header__icon>i {
+        margin-right: 0;
+    }
+
+    .header__ava {
+        margin-right: 15px;
+    }
+}
+
+@media(max-width:1110px) {
+    .component__left {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .component__right {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .component__title {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+}
+
+@media(max-width:1050px) {
+    .info {
+        justify-content: space-evenly;
+    }
+
+    .info__item {
+        margin-bottom: 30px;
+    }
+
+    .component,
+    .component__title {
+        margin-top: 0;
+    }
+
+    .component__left {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(max-width:558px) {
+    .footer__content {
+        justify-content: space-evenly;
+    }
+
+    .footer__info {
+        align-items: center;
+    }
+
+    .footer__title {
+        text-align: center;
+    }
+
+    .header__ava {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:627px){
+    .header__sidebar{
+        align-items: flex-start;
+        padding-top: 15px;
+    }
+    
+    .header__sidebar:hover{
+        height: 60vh;
+    }
+    
+    .header__link{
+        margin-bottom: 30px;
+    }
+    
+    .welcome{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .welcome__text,
+    .welcome__title{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .welcome__title{
+        font-size: 30px;
+    }
+    
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
